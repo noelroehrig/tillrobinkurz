@@ -17,7 +17,7 @@ const Nav = () => {
     return(     
         <div ref={ref}>
             <Hamburger toggled={isOpen} toggle={handleClick} />    
-            {isOpen && ( // TODO: Entkoppeln vom rest, verschiebt beim aufklappen das frontend
+            {isOpen && ( // TODO: Entkoppeln vom rest, verschiebt beim aufklappen das frontend || Dropdown menu component?
                 <div className="left-0 right-0 top-[3.5rem] pt-0">
                     <ul className="grid gap-2">
                         <li className="p-[0.08rem] w-auto">
