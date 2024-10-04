@@ -7,13 +7,13 @@ export default function Home() {
       <Header />
 
       <div className="flex min-h-screen flex-col items-center justify-between p-24">
-        <ProjectPreview projectName={"test"} />
+        <ProjectPreview projectName={"Katzengasse"} projectLink={"/katzengasse"}/>
         
-        <ProjectPreview projectName={"test"} />
+        <ProjectPreview projectName={"Weidengasse"} projectLink={"/weidengasse"}/>
         
-        <ProjectPreview projectName={"test"} />
+        <ProjectPreview projectName={"test"} projectLink={"/"}/>
         
-        <ProjectPreview projectName={"test"} />
+        <ProjectPreview projectName={"test"} projectLink={"/"}/>
       </div>
     </main>
   );
